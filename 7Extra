@@ -1,0 +1,17 @@
+
+1)
+
+crontab can be used with the following values:
+
+01 00 * * * 7.sh
+
+2) 
+
+Remove the > AccessLog from the 7.sh
+For Monday:
+01 00 * * 1 7.sh
+
+For Sunday:
+01 00 * * 0 7.sh
+
+
